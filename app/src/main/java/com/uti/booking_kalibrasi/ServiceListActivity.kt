@@ -83,3 +83,4 @@ class ServiceListActivity : AppCompatActivity() {
                 5,
                 "Kalibrasi Volume",
                 300000,
+                R.drawable.kalibrasi_volume,
