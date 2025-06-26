@@ -41,3 +41,4 @@ class ServiceAdapter(
         fun bind(service: ServiceModel) {
             ivService.setImageResource(service.imageResource)
             tvServiceName.text = service.name
+            tvServicePrice.text = formatPrice(service.price)
