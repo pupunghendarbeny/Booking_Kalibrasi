@@ -14,3 +14,8 @@ import androidx.recyclerview.widget.RecyclerView
 import java.text.NumberFormat
 import java.util.*
 
+class ServiceAdapter(
+    private val context: Context,
+    private val serviceList: List<ServiceModel>
+) : RecyclerView.Adapter<ServiceAdapter.ServiceViewHolder>() {
+
