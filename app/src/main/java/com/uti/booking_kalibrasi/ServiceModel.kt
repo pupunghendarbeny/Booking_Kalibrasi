@@ -5,4 +5,5 @@ data class ServiceModel(
     val name: String,
     val price: Long,
     val imageResource: Int,
+    val description: String
 )
