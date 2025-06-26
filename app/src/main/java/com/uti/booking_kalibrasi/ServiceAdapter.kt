@@ -29,3 +29,5 @@ class ServiceAdapter(
         holder.bind(service)
     }
 
+    override fun getItemCount(): Int = serviceList.size
+
