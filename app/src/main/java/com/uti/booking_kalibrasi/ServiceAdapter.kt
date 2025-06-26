@@ -36,3 +36,4 @@ class ServiceAdapter(
         private val tvServiceName: TextView = itemView.findViewById(R.id.tv_service_name)
         private val tvServicePrice: TextView = itemView.findViewById(R.id.tv_service_price)
         private val tvServiceDescription: TextView = itemView.findViewById(R.id.tv_service_description)
+        private val btnOrder: Button = itemView.findViewById(R.id.btn_order)
