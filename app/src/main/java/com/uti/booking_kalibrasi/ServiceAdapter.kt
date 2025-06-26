@@ -51,3 +51,5 @@ class ServiceAdapter(
 
         private fun formatPrice(price: Long): String {
             val formatter = NumberFormat.getCurrencyInstance(Locale("id", "ID"))
+            return formatter.format(price).replace("IDR", "Rp")
+        }
