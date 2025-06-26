@@ -31,3 +31,4 @@ class ServiceAdapter(
 
     override fun getItemCount(): Int = serviceList.size
 
+    inner class ServiceViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
