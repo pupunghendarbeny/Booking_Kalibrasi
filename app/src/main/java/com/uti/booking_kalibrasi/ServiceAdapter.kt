@@ -43,3 +43,11 @@ class ServiceAdapter(
             tvServiceName.text = service.name
             tvServicePrice.text = formatPrice(service.price)
             tvServiceDescription.text = service.description
+
+            btnOrder.setOnClickListener {
+                openWhatsApp(service)
+            }
+        }
+
+        private fun formatPrice(price: Long): String {
+            val formatter = NumberFormat.getCurrencyInstance(Locale("id", "ID"))
