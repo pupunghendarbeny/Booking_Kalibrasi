@@ -59,3 +59,4 @@ class ServiceAdapter(
             val message = """
                 Halo, saya ingin menggunakan jasa kalibrasi:
                 
+                Layanan: ${service.name}
