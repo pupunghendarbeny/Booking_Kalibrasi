@@ -24,3 +24,8 @@ class ServiceAdapter(
         return ServiceViewHolder(view)
     }
 
+    override fun onBindViewHolder(holder: ServiceViewHolder, position: Int) {
+        val service = serviceList[position]
+        holder.bind(service)
+    }
+
