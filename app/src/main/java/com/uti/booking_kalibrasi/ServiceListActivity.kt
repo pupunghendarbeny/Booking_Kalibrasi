@@ -82,3 +82,4 @@ class ServiceListActivity : AppCompatActivity() {
             ServiceModel(
                 5,
                 "Kalibrasi Volume",
+                300000,
