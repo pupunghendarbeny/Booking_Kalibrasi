@@ -79,3 +79,6 @@ class ServiceListActivity : AppCompatActivity() {
                 R.drawable.kalibrasi_suhu_ruangan,
                 "Kalibrasi alat pengukur suhu ruangan"
             ),
+            ServiceModel(
+                5,
+                "Kalibrasi Volume",
