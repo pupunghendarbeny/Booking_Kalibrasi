@@ -65,6 +65,6 @@ class ServiceListActivity : AppCompatActivity() {
                 R.drawable.kalibrasi_tangki_bbm,
                 "Kalibrasi tangki bahan bakar minyak sesuai standar industri"
             ),
-
-
-
+            ServiceModel(
+                3,
+                "Kalibrasi Timbangan Digital",
