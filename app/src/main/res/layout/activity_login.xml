@@ -74,7 +74,18 @@
             app:cornerRadius="8dp"
             android:layout_marginBottom="16dp" />
 
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Username: admin\nPassword: password123"
+            android:textSize="12sp"
+            android:textColor="?attr/colorOnBackground"
+            android:gravity="center"
+            android:alpha="0.7" />
 
+    </LinearLayout>
+
+</ScrollView>
 
 
 
