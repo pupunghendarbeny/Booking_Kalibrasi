@@ -75,3 +75,4 @@ class ServiceListActivity : AppCompatActivity() {
             ServiceModel(
                 4,
                 "Kalibrasi Suhu Ruangan",
+                300000,
