@@ -39,9 +39,7 @@ class LoginActivity : AppCompatActivity() {
             if (validateInput(username, password)) {
                 if (isValidCredentials(username, password)) {
                     // Login berhasil
-                    val intent = Intent(this, ServiceListActivity::class.java)
-                    startActivity(intent)
-                    finish()
+
                 } else {
                     Toast.makeText(this, "Username atau password salah!", Toast.LENGTH_SHORT).show()
                 }
