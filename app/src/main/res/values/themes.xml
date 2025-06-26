@@ -22,5 +22,12 @@
         <!-- Status bar color. -->
         <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
 
+        <!-- Background colors -->
+        <item name="android:colorBackground">@color/background_light</item>
+        <item name="colorSurface">@color/surface_light</item>
+        <item name="colorOnBackground">@color/text_primary_light</item>
+        <item name="colorOnSurface">@color/text_primary_light</item>
 
+
+    </style>
 </resources>
