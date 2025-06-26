@@ -13,3 +13,15 @@ class LoginActivity : AppCompatActivity() {
     private lateinit var etPassword: EditText
     private lateinit var btnLogin: Button
 
+    // Kredensial default (dalam produksi gunakan database atau API)
+    private val defaultUsername = "admin"
+    private val defaultPassword = "password123"
+
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_login)
+
+        initViews()
+        setupLogin()
+    }
+
