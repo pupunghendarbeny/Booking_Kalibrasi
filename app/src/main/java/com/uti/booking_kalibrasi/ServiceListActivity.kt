@@ -39,6 +39,21 @@ class ServiceListActivity : AppCompatActivity() {
         }
     }
 
+    private fun setupLogoutButton() {
+        btnLogout.setOnClickListener {
+            // Clear any stored credentials or session data here if needed
+            val intent = Intent(this, LoginActivity::class.java)
+            intent.flags = Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK
+            startActivity(intent)
+            finish()
+        }
+    }
+
+    private fun getServiceList(): List<ServiceModel> {
+        return listOf(
+            ServiceModel(
+                1,
+                "Kalibrasi Tangki Tanam",
 
 
 
