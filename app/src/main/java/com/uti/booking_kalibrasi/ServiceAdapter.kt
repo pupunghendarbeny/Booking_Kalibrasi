@@ -42,3 +42,4 @@ class ServiceAdapter(
             ivService.setImageResource(service.imageResource)
             tvServiceName.text = service.name
             tvServicePrice.text = formatPrice(service.price)
+            tvServiceDescription.text = service.description
