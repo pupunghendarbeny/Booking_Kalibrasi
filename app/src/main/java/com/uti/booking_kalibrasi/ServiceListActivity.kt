@@ -62,6 +62,7 @@ class ServiceListActivity : AppCompatActivity() {
                 2,
                 "Kalibrasi Tangki BBM",
                 2500000,
+                R.drawable.kalibrasi_tangki_bbm,
 
 
 
