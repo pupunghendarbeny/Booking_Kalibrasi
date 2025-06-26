@@ -25,3 +25,27 @@ class LoginActivity : AppCompatActivity() {
         setupLogin()
     }
 
+    private fun initViews() {
+        etUsername = findViewById(R.id.et_username)
+        etPassword = findViewById(R.id.et_password)
+        btnLogin = findViewById(R.id.btn_login)
+    }
+
+    private fun setupLogin() {
+        btnLogin.setOnClickListener {
+            val username = etUsername.text.toString().trim()
+            val password = etPassword.text.toString().trim()
+
+            if (validateInput(username, password)) {
+                if (isValidCredentials(username, password)) {
+                    // Login berhasil
+                    val intent = Intent(this, ServiceListActivity::class.java)
+                    startActivity(intent)
+                    finish()
+                } else {
+                    Toast.makeText(this, "Username atau password salah!", Toast.LENGTH_SHORT).show()
+                }
+            }
+        }
+    }
+
