@@ -55,6 +55,7 @@ class ServiceListActivity : AppCompatActivity() {
                 1,
                 "Kalibrasi Tangki Tanam",
                 2500000,
+                R.drawable.kalibrasi_tangki_tanam,
 
 
 
