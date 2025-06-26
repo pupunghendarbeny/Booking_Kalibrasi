@@ -2,5 +2,6 @@
     <string name="app_name">Booking_Kalibrasi</string>
     <string name="login">Login</string>
     <string name="username">Username</string>
+    <string name="password">Password</string>
 
 </resources>
