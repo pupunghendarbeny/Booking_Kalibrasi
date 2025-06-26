@@ -60,3 +60,7 @@ class ServiceAdapter(
                 Halo, saya ingin menggunakan jasa kalibrasi:
                 
                 Layanan: ${service.name}
+                Harga: ${formatPrice(service.price)}
+                
+                Mohon informasi lebih lanjut. Terima kasih.
+            """.trimIndent()
