@@ -69,3 +69,4 @@ class ServiceListActivity : AppCompatActivity() {
                 3,
                 "Kalibrasi Timbangan Digital",
                 350000,
+                R.drawable.kalibrasi_timbangan_digital,
