@@ -1,4 +1,4 @@
 package com.uti.booking_kalibrasi
 
-class ServiceModel {
-}
+data class ServiceModel(
+    val id: Int,
