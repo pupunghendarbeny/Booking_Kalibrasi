@@ -39,3 +39,13 @@
                 android:textColor="?attr/colorPrimary"
                 android:layout_marginBottom="8dp" />
 
+            <TextView
+                android:id="@+id/tv_service_price"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Rp 0"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:textColor="?attr/colorPrimary"
+                android:layout_marginBottom="12dp" />
+
