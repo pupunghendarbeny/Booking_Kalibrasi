@@ -49,3 +49,14 @@
                 android:textColor="?attr/colorPrimary"
                 android:layout_marginBottom="12dp" />
 
+            <TextView
+                android:id="@+id/tv_service_description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Deskripsi jasa"
+                android:textSize="14sp"
+                android:textColor="?attr/colorOnSurfaceVariant"
+                android:layout_marginBottom="16dp"
+                android:maxLines="2"
+                android:ellipsize="end" />
+
