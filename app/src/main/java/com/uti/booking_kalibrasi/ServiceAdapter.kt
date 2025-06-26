@@ -55,3 +55,4 @@ class ServiceAdapter(
         }
 
         private fun openWhatsApp(service: ServiceModel) {
+            val phoneNumber ="6282233303285" // Ganti dengan nomor WhatsApp yang benar
