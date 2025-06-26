@@ -71,3 +71,12 @@ class ServiceAdapter(
                 val intent = Intent(Intent.ACTION_VIEW)
                 intent.data = Uri.parse(url)
                 context.startActivity(intent)
+            } catch (e: Exception) {
+                // Fallback jika WhatsApp tidak terinstall
+                val intent = Intent(Intent.ACTION_VIEW)
+                intent.data = Uri.parse("https://web.whatsapp.com/send?phone=$phoneNumber&text=${Uri.encode(message)}")
+                context.startActivity(intent)
+            }
+        }
+    }
+}
