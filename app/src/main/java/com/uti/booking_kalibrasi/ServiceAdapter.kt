@@ -33,3 +33,4 @@ class ServiceAdapter(
 
     inner class ServiceViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
         private val ivService: ImageView = itemView.findViewById(R.id.iv_service)
+        private val tvServiceName: TextView = itemView.findViewById(R.id.tv_service_name)
