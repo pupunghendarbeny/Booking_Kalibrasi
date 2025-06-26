@@ -28,6 +28,17 @@ class ServiceListActivity : AppCompatActivity() {
         rvServices = findViewById(R.id.rv_services)
         btnLogout = findViewById(R.id.btn_logout)
     }
+    private fun setupRecyclerView() {
+        val serviceList = getServiceList()
+        serviceAdapter = ServiceAdapter(this, serviceList)
+
+        rvServices.apply {
+            layoutManager = LinearLayoutManager(this@ServiceListActivity)
+            adapter = serviceAdapter
+            setHasFixedSize(true)
+        }
+    }
+
 
 
 
