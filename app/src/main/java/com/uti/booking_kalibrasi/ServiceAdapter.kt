@@ -64,3 +64,5 @@ class ServiceAdapter(
                 
                 Mohon informasi lebih lanjut. Terima kasih.
             """.trimIndent()
+
+            val url = "https://wa.me/$phoneNumber?text=${Uri.encode(message)}"
