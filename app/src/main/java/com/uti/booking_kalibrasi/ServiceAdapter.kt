@@ -32,3 +32,4 @@ class ServiceAdapter(
     override fun getItemCount(): Int = serviceList.size
 
     inner class ServiceViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
+        private val ivService: ImageView = itemView.findViewById(R.id.iv_service)
