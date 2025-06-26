@@ -76,3 +76,4 @@ class ServiceListActivity : AppCompatActivity() {
                 4,
                 "Kalibrasi Suhu Ruangan",
                 300000,
+                R.drawable.kalibrasi_suhu_ruangan,
