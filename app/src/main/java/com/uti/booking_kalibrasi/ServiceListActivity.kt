@@ -54,6 +54,7 @@ class ServiceListActivity : AppCompatActivity() {
             ServiceModel(
                 1,
                 "Kalibrasi Tangki Tanam",
+                2500000,
 
 
 
