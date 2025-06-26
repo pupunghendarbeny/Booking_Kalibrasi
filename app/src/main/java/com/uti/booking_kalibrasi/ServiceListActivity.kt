@@ -72,3 +72,6 @@ class ServiceListActivity : AppCompatActivity() {
                 R.drawable.kalibrasi_timbangan_digital,
                 "Kalibrasi timbangan digital untuk akurasi pengukuran"
             ),
+            ServiceModel(
+                4,
+                "Kalibrasi Suhu Ruangan",
