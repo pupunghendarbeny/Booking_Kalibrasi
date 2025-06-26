@@ -93,3 +93,6 @@ class ServiceListActivity : AppCompatActivity() {
                 R.drawable.kalibrasi_timbangan_jembatan,
                 "Kalibrasi timbangan jembatan untuk kendaraan berat"
             ),
+            ServiceModel(
+                7,
+                "Kalibrasi Thermometer",
