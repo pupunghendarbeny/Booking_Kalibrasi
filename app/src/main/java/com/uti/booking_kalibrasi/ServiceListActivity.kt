@@ -56,6 +56,8 @@ class ServiceListActivity : AppCompatActivity() {
                 "Kalibrasi Tangki Tanam",
                 2500000,
                 R.drawable.kalibrasi_tangki_tanam,
+                "Kalibrasi untuk tangki tanam dengan standar yang tepat"
+            ),
 
 
 
