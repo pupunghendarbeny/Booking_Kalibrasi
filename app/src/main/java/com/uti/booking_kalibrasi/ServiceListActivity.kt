@@ -89,3 +89,4 @@ class ServiceListActivity : AppCompatActivity() {
             ServiceModel(
                 6,
                 "Kalibrasi Timbangan Jembatan",
+                1500000,
