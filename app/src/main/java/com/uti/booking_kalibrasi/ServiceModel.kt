@@ -1,4 +1,4 @@
 package com.uti.booking_kalibrasi
 
-class ServiceAdapter {
+class ServiceModel {
 }
