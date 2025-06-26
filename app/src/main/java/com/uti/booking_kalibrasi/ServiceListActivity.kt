@@ -86,3 +86,6 @@ class ServiceListActivity : AppCompatActivity() {
                 R.drawable.kalibrasi_volume,
                 "Kalibrasi alat pengukur volume berbagai jenis"
             ),
+            ServiceModel(
+                6,
+                "Kalibrasi Timbangan Jembatan",
