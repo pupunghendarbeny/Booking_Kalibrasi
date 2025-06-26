@@ -60,3 +60,10 @@
                 android:maxLines="2"
                 android:ellipsize="end" />
 
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_order"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:text="Pesan via WhatsApp"
+                android:textSize="14sp"
+                android:textStyle="bold"
