@@ -19,3 +19,8 @@ class ServiceAdapter(
     private val serviceList: List<ServiceModel>
 ) : RecyclerView.Adapter<ServiceAdapter.ServiceViewHolder>() {
 
+    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ServiceViewHolder {
+        val view = LayoutInflater.from(context).inflate(R.layout.item_service, parent, false)
+        return ServiceViewHolder(view)
+    }
+
