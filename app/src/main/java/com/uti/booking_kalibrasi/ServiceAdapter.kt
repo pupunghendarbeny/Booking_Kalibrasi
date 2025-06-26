@@ -39,3 +39,4 @@ class ServiceAdapter(
         private val btnOrder: Button = itemView.findViewById(R.id.btn_order)
 
         fun bind(service: ServiceModel) {
+            ivService.setImageResource(service.imageResource)
