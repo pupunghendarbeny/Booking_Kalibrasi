@@ -61,6 +61,7 @@ class ServiceListActivity : AppCompatActivity() {
             ServiceModel(
                 2,
                 "Kalibrasi Tangki BBM",
+                2500000,
 
 
 
