@@ -49,3 +49,21 @@ class LoginActivity : AppCompatActivity() {
         }
     }
 
+    private fun validateInput(username: String, password: String): Boolean {
+        return when {
+            username.isEmpty() -> {
+                etUsername.error = "Username tidak boleh kosong"
+                false
+            }
+            password.isEmpty() -> {
+                etPassword.error = "Password tidak boleh kosong"
+                false
+            }
+            else -> true
+        }
+    }
+
+    private fun isValidCredentials(username: String, password: String): Boolean {
+        return username == defaultUsername && password == defaultPassword
+    }
+}
