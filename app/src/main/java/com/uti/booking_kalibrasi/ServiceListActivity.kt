@@ -96,3 +96,4 @@ class ServiceListActivity : AppCompatActivity() {
             ServiceModel(
                 7,
                 "Kalibrasi Thermometer",
+                300000,
