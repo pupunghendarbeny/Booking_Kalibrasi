@@ -104,3 +104,4 @@ class ServiceListActivity : AppCompatActivity() {
                 8,
                 "Kalibrasi Timbangan Sembako",
                 300000,
+                R.drawable.kalibrasi_timbangan_sembako,
