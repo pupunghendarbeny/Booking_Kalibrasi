@@ -29,3 +29,13 @@
             android:orientation="vertical"
             android:padding="16dp">
 
+            <TextView
+                android:id="@+id/tv_service_name"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:text="Nama Jasa"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textColor="?attr/colorPrimary"
+                android:layout_marginBottom="8dp" />
+
