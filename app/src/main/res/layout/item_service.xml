@@ -67,3 +67,14 @@
                 android:text="Pesan via WhatsApp"
                 android:textSize="14sp"
                 android:textStyle="bold"
+                app:icon="@drawable/ic_whatsapp"
+                app:iconGravity="textStart"
+                app:iconPadding="8dp"
+                app:cornerRadius="24dp"
+                android:backgroundTint="@color/whatsapp_green" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>
