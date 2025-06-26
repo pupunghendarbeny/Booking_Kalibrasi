@@ -53,3 +53,5 @@ class ServiceAdapter(
             val formatter = NumberFormat.getCurrencyInstance(Locale("id", "ID"))
             return formatter.format(price).replace("IDR", "Rp")
         }
+
+        private fun openWhatsApp(service: ServiceModel) {
